@@ -1,4 +1,4 @@
 $(document).ready(() => {
    console.log("I got here");
-   let table = $('list-table').DataTable();
+   let table = $('#list-table').DataTable();
 });
