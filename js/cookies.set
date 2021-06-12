@@ -1,0 +1,11 @@
+$(document).ready(function() {
+    $('#dark-mode-toggle').change(function() {
+        if (this.checked) {
+            document.getElementsByTagName('html')[0].classList.add('dark');
+            Cookies.set('theme', 'dark');
+        } else {
+            document.getElementsByTagName('html')[0].classList.remove('dark');
+            Cookies.set('theme', 'light');
+        }
+    });
+});
