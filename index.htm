@@ -324,13 +324,14 @@ B, added 2 days ago</p>
 </div>
 </div>
 <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-		<script>
-		  kofiWidgetOverlay.draw('batotoscans', {
-			'type': 'floating-chat',
-			'floating-chat.donateButton.text': 'Support Us',
-			'floating-chat.donateButton.background-color': '#ff5f5f',
-			'floating-chat.donateButton.text-color': '#fff'
-		  });
-		</script>
+        <script>
+          kofiWidgetOverlay.draw('batotoscans', {
+            'type': 'floating-chat',
+            'floating-chat.donateButton.text': 'Support Us',
+            'floating-chat.donateButton.background-color': '#ff5f5f',
+            'floating-chat.donateButton.text-color': '#fff'
+          });
+          document.querySelector(`.floatingchat-container-wrap`).style.right = "1rem";
+        </script>
 </body>
 </html>
