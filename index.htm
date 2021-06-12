@@ -105,7 +105,15 @@ Information page.</p>
 join our Discord.</p>
 </div>
 <div class="flex-none flex sm:block">
-<iframe class="flex-none sm:block" id="discord-widget" width="300" height="350" allowtransparency="true" frameborder="0"></iframe>
+	<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+		<script>
+		  kofiWidgetOverlay.draw('batotoscans', {
+			'type': 'floating-chat',
+			'floating-chat.donateButton.text': 'Support me',
+			'floating-chat.donateButton.background-color': '#ff5f5f',
+			'floating-chat.donateButton.text-color': '#fff'
+		  });
+		</script>
 <div id="discord-camp" class="bg-right block sm:hidden flex-1 flex flex-col justify-center items-center ml-3 rounded-md bg-gray-300 dark:bg-gray-800 text-white text-center align-middle">
 <div class="flex-1"></div>
 <p class="flex-none mx-1 rounded-md bg-opacity-50 bg-gray-800">Join our Discord for support, fun, and
