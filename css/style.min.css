@@ -2312,10 +2312,6 @@
       text-align: center !important;
       width: 100% !important;
     }
-    .floatingchat-container-wrap {
-      right: 1rem !important;
-      left: inhereted !important;
-    }
   }
   @media (min-width: 640px) {
     .sm\:block {
