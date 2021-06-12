@@ -1,5 +1,11 @@
 <!doctype html>
 <html lang="en">
+	<style>
+		.floatingchat-container-wrap, .floating-chat-kofi-popup-iframe {
+		  right: 1rem !important;
+		  left: inherit !important;
+		}
+		</style>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
 	<script src="/js/navbar.js" type="text/javascript"></script>
@@ -252,5 +258,14 @@ a discord.py bot, a JDA bot... you know, I'm starting to see a trend.</p>
 <div class="w-11/12 mx-auto pl-5 mb-5 mt-2 leading-snug">
 <p class="text-sm leading-snug dark:text-gray-400">Wow, you actually made it to the bottom of the document. DM me (the owner) on Discord for a secret role.</p>
 </div>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+        <script>
+          kofiWidgetOverlay.draw('batotoscans', {
+            'type': 'floating-chat',
+            'floating-chat.donateButton.text': 'Support Us',
+            'floating-chat.donateButton.background-color': '#ff5f5f',
+            'floating-chat.donateButton.text-color': '#fff'
+          });
+        </script>
+</body>
 </html>
